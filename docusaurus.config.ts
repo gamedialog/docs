@@ -5,7 +5,7 @@ import type * as Preset from '@docusaurus/preset-classic';
 // This runs in Node.js - Don't use client-side code here (browser APIs, JSX...)
 
 const config: Config = {
-  title: 'Game Dialog Script',
+  title: 'Game Dialog',
   tagline: 'A simple language for writing game dialogs with integrated logic',
   favicon: 'img/favicon.ico',
 
@@ -58,9 +58,9 @@ const config: Config = {
       respectPrefersColorScheme: true,
     },
     navbar: {
-      title: 'Game Dialog Script',
+      title: 'Game Dialog',
       logo: {
-        alt: 'Game Dialog Script Logo',
+        alt: 'Game Dialog Logo',
         src: 'img/logo.svg',
       },
       items: [
@@ -70,38 +70,6 @@ const config: Config = {
           position: 'right',
         },
       ],
-    },
-    footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Getting Started',
-              to: '/',
-            },
-            {
-              label: 'Installation',
-              to: '/installation',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'GitHub',
-              href: 'https://github.com/gamedialog/gdialog',
-            },
-            {
-              label: 'NuGet',
-              href: 'https://www.nuget.org/packages/gdialog/',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} Game Dialog. Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
